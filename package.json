@@ -1,0 +1,25 @@
+{
+  "name": "fieldnote-lab",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Two synthetic, browser-only operations and scenario portfolio demonstrations.",
+  "scripts": {
+    "build": "node build.mjs",
+    "start": "node server.mjs",
+    "test": "node --experimental-strip-types --test test/*.test.mjs"
+  },
+  "engines": {
+    "node": ">=22.18"
+  },
+  "dependencies": {
+    "react": "19.1.0",
+    "react-dom": "19.1.0"
+  },
+  "devDependencies": {
+    "esbuild": "0.28.1",
+    "typescript": "5.9.3",
+    "@types/react": "19.1.10",
+    "@types/react-dom": "19.1.2"
+  }
+}

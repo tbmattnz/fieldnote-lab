@@ -1,0 +1,129 @@
+{
+  "name": "Fieldnote community skills programme",
+  "currency": "USD",
+  "baselineIndex": 4,
+  "periods": [
+    {
+      "id": "2026-04",
+      "label": "April",
+      "short": "Apr",
+      "sourceDate": "2026-05-02",
+      "contacts": 840,
+      "offers": 640,
+      "accepted": 452,
+      "appointments": 380,
+      "completed": 304,
+      "plan": 300,
+      "cost": 31920,
+      "sites": [
+        { "name": "North", "completed": 104, "plan": 100 },
+        { "name": "Central", "completed": 116, "plan": 115 },
+        { "name": "Harbour", "completed": 84, "plan": 85 }
+      ]
+    },
+    {
+      "id": "2026-05",
+      "label": "May",
+      "short": "May",
+      "sourceDate": "2026-06-02",
+      "contacts": 900,
+      "offers": 690,
+      "accepted": 480,
+      "appointments": 405,
+      "completed": 326,
+      "plan": 320,
+      "cost": 33750,
+      "sites": [
+        { "name": "North", "completed": 112, "plan": 110 },
+        { "name": "Central", "completed": 124, "plan": 120 },
+        { "name": "Harbour", "completed": 90, "plan": 90 }
+      ]
+    },
+    {
+      "id": "2026-06",
+      "label": "June",
+      "short": "Jun",
+      "sourceDate": "2026-07-02",
+      "contacts": 940,
+      "offers": 720,
+      "accepted": 490,
+      "appointments": 415,
+      "completed": 331,
+      "plan": 340,
+      "cost": 35500,
+      "sites": [
+        { "name": "North", "completed": 117, "plan": 115 },
+        { "name": "Central", "completed": 127, "plan": 125 },
+        { "name": "Harbour", "completed": 87, "plan": 100 }
+      ]
+    },
+    {
+      "id": "2026-07",
+      "label": "July",
+      "short": "Jul",
+      "sourceDate": "2026-08-02",
+      "contacts": 1000,
+      "offers": 770,
+      "accepted": 520,
+      "appointments": 435,
+      "completed": 344,
+      "plan": 360,
+      "cost": 37200,
+      "sites": [
+        { "name": "North", "completed": 124, "plan": 120 },
+        { "name": "Central", "completed": 130, "plan": 135 },
+        { "name": "Harbour", "completed": 90, "plan": 105 }
+      ]
+    },
+    {
+      "id": "2026-08",
+      "label": "August",
+      "short": "Aug",
+      "sourceDate": "2026-09-02",
+      "contacts": 1080,
+      "offers": 810,
+      "accepted": 550,
+      "appointments": 460,
+      "completed": 352,
+      "plan": 380,
+      "cost": 40500,
+      "sites": [
+        { "name": "North", "completed": 130, "plan": 130 },
+        { "name": "Central", "completed": 139, "plan": 140 },
+        { "name": "Harbour", "completed": 83, "plan": 110 }
+      ]
+    },
+    {
+      "id": "2026-09",
+      "label": "September",
+      "short": "Sep",
+      "sourceDate": "2026-10-02",
+      "contacts": 1160,
+      "offers": 870,
+      "accepted": 590,
+      "appointments": 490,
+      "completed": 361,
+      "plan": 400,
+      "cost": 43500,
+      "sites": [
+        { "name": "North", "completed": 138, "plan": 140 },
+        { "name": "Central", "completed": 143, "plan": 145 },
+        { "name": "Harbour", "completed": 80, "plan": 115 }
+      ]
+    }
+  ],
+  "rules": { "completionGapPercent": 5, "costPerCompletion": 110 },
+  "scenario": {
+    "eligible": 1200,
+    "months": ["Nov", "Dec", "Jan", "Feb", "Mar", "Apr"],
+    "offerRate": 0.8,
+    "acceptRate": 0.68,
+    "appointmentRate": 0.85,
+    "completionRate": 0.78,
+    "setupCost": 2400,
+    "defaultAdoption": 65,
+    "defaultDelay": 0,
+    "defaultUnitCost": 85,
+    "comparisonUnitCost": 100
+  }
+}
